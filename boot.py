@@ -10,8 +10,7 @@ gc.collect()
 network.WLAN(network.STA_IF).active(False)  # WiFi station interface
 network.WLAN(network.AP_IF).active(False)  # access-point interface
 
-ssid = 'Fofr1'
-password = 'iadnuiadnu1'
+
 ssid = 'BTECH-openspace-public'
 password = 'btech1234'
 
