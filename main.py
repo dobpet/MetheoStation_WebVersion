@@ -167,6 +167,20 @@ while True:
     <sup class="units">%</sup>
   </p>
   <hr>
+  <h3>vnější:</h3>
+  <p>
+    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
+    <span class="dht-labels">Temperature</span> 
+    <span>"""+str(tempDHTout)+"""</span>
+    <sup class="units">&deg;C</sup>
+  </p>
+  <p>
+    <i class="fas fa-tint" style="color:#00add6;"></i> 
+    <span class="dht-labels">Humidity</span>
+    <span>"""+str(humDHTout)+"""</span>
+    <sup class="units">%</sup>
+  </p>
+  <hr>
 </body>
 </html>""")
             print('web sended')
